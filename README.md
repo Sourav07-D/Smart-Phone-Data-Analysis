@@ -37,29 +37,35 @@ This project entails a comprehensive analysis of smartphone data, with a particu
 ### Installation
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/yourusername/smartphone-data-analysis.git
    cd smartphone-data-analysis
    ```
 
 2. Install the required libraries:
+   ```bash
    pip install -r requirements.txt
    ```
 
 ### Usage
 
 1. **Data Scraping**: Run the `data_scraping.py` script to collect data from the Smartfix website.
+   ```bash
    python scripts/data_scraping.py
    ```
 
 2. **Data Cleaning**: Execute the `data_cleaning.py` script to clean the scraped data.
+   ```bash
    python scripts/data_cleaning.py
    ```
 
 3. **Data Analysis**: Run the `analysis.py` script to perform data analysis and generate insights.
+   ```bash
    python scripts/analysis.py
    ```
 
 4. **Visualizations**: Explore the generated visualizations in the `visuals` directory.
+
 
 ## Contributing
 
